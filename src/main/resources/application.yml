@@ -1,0 +1,42 @@
+server:
+  port: 8888
+
+mycar:
+  brand: YD
+  price: 100000
+debug: true
+
+person:
+  boss: true
+  birth: 2019/12/9
+  age: 18
+  #  行内写法
+  #  interests: [篮球,足球]
+  interests:
+    - 篮球
+    - 足球
+    - 18
+  animal: [ 阿猫,阿狗 ]
+  #  score:
+  #    english: 80
+  #    math: 90
+  score: { english: 80,math: 90 }
+  salarys:
+    - 9999.98
+    - 9999.99
+  pet:
+    name: 阿狗
+    weight: 99.99
+  allPets:
+    sick:
+      - { name: 阿狗,weight: 567 }
+      - name: 阿猫
+        weight: 88
+      - name: 爱宠
+        weight: 77.77
+    health:
+      - { name: 阿华,weight: 199 }
+      - { name: 阿明,weight: 299 }
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
